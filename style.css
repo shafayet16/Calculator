@@ -67,8 +67,20 @@ body {
   color: transparent;
   text-shadow: 0 0 0 #aaffff, 0 0 2px rgba(0, 200, 200, 0.8);
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 760px) {
   .container {
-    width: 80%;
+    height: 30rem; /* Adjust height for smaller screens */
+    width: 90%; /* Adjust width to fit smaller screens */
+    max-width: 20rem; /* Limit maximum width */
+  }
+
+  #result {
+    height: 6rem; /* Adjust height for smaller screens */
+    width: 100%; /* Full width */
+  }
+
+  #operations {
+    height: 24rem; /* Adjust height for smaller screens */
+    width: 100%; /* Full width */
   }
 }
