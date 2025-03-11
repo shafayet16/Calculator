@@ -16,9 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0px;
-  height: 40rem;
+  height: 80%;
   flex-wrap: wrap;
-  width: 35rem;
+  width: 40%;
   margin: auto;
   border: 2px solid;
   border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
@@ -26,8 +26,8 @@ body {
 }
 
 #result {
-  height: 9rem;
-  width: 35rem;
+  height: 25%;
+  width: 100%;
   border: 2px solid;
   border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
   background: linear-gradient(to bottom, #202715, #122929);
@@ -39,8 +39,8 @@ body {
 }
 
 #operations {
-  height: 31rem;
-  width: 35rem;
+  height: 75%;
+  width: 100%;
   border: 2px solid;
   border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
   display: flex;
