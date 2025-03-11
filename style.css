@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(#001f3f, #222222);
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  height: 40rem;
+  flex-wrap: wrap;
+  width: 35rem;
+  margin: auto;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
+  padding: 0;
+}
+#result {
+  height: 9rem;
+  width: 35rem;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
+}
+#operations {
+  height: 31rem;
+  width: 35rem;
+  border: 2px solid;
+  border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
+}
