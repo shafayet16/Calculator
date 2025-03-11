@@ -9,6 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
+  min-height: 100vh;
 }
 
 .container {
@@ -16,9 +17,10 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0px;
-  height: 80%;
+  height: 80vh;
   flex-wrap: wrap;
-  width: 40%;
+  width: 90vw;
+  max-width: 34rem;
   margin: auto;
   border: 2px solid;
   border-image: linear-gradient(to right, #003349, #2f4f4f, #003349) 1;
@@ -63,7 +65,7 @@ body {
 #answer {
   position: relative;
   left: -40px;
-  font-size: 3.2rem;
+  font-size: 8vh;
   color: transparent;
   text-shadow: 0 0 0 #aaffff, 0 0 2px rgba(0, 200, 200, 0.8);
 }
